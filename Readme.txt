@@ -50,3 +50,5 @@ git push -u origin master
         vim .git-credentials
         https://{username}:{password}@github.com
 }
+
+end
