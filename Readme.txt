@@ -42,3 +42,11 @@ $ ssh-keygen -t rsa -C "youremail@example.com" 生成SSH
 git remote add origin git@github.com:用户名/仓库名.git
 
 git push -u origin master
+
+//测试 git config --global credential.helper store 避免多次输入账号密码
+
+{
+        touch .git-credentials
+        vim .git-credentials
+        https://{username}:{password}@github.com
+}
