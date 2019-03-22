@@ -51,4 +51,3 @@ git push -u origin master
         https://{username}:{password}@github.com
 }
 
-end
